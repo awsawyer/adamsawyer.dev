@@ -43,13 +43,8 @@ jobs:
 
       - name: Build with Hugo
         env:
-          HUGO_CACHEDIR: ${{ tragic_fix_for_cache_if_needed }}
+          HUGO_CACHEDIR: ${{ github.workspace }}/.hugo_cache
           HUGO_ENV: production
-        run: |
-          hugo \
-            --gc \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
