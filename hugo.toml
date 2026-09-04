@@ -1,0 +1,4 @@
+baseURL = 'https://adamsawyer.dev/'
+locale = 'en-us'
+title = 'adamsawyer.dev'
+theme = 'PaperMod'
