@@ -28,7 +28,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive
+          submodules: recursive # needed for the PaperMod theme submodule
           fetch-depth: 0
 
       - name: Setup Pages
@@ -45,6 +45,7 @@ jobs:
         env:
           HUGO_CACHEDIR: ${{ github.workspace }}/.hugo_cache
           HUGO_ENV: production
+        run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -54,4 +55,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
