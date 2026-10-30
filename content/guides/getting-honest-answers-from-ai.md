@@ -7,10 +7,7 @@ hidemeta: false
 showToc: true
 tags:
   - ai
-  - sycophancy
-  - first-steps
 title: "Getting Honest Answers from AI: First Steps"
-weight: 1
 ---
 
 I audited 90 days of my own AI conversations — 33 of them, all real decisions — and scored each one on a single question: did the assistant ever challenge what I asked for, or only execute it? In roughly half the advice conversations, it never challenged anything. It accepted my premise and built on it.

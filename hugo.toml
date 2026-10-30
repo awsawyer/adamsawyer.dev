@@ -2,3 +2,44 @@ baseURL = 'https://adamsawyer.dev/'
 locale = 'en-us'
 title = 'adamsawyer.dev'
 theme = 'PaperMod'
+
+[params]
+  mainSections = ['posts', 'guides']
+  ShowRssButtonInSectionTermList = true
+
+  [params.homeInfoParams]
+    Title = "Hi, I'm Adam. 👋"
+    Content = """
+I live in South Carolina, I work with AI, and I build iOS apps on the side.
+
+Take a look at [Posts](/posts/) for what I'm thinking about, [Guides](/guides/) for step-by-step help with AI and code, and [About](/about/) for the longer version.
+
+**To reach me, use one of the links below.**
+"""
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/awsawyer"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/adamwsawyer"
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "guides"
+    name = "Guides"
+    url = "/guides/"
+    weight = 20
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 30

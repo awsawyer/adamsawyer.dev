@@ -1,9 +1,11 @@
 ---
+author: Adam Sawyer
 title: "Dungeon Crawler Carl: A raucous, disordered, and flawed love letter to the heroic spirit"
 date: 2026-10-14
 draft: false
 description: "Anyone who has watched a friend fight cancer inside the American healthcare system knows what it is to play a game whose rules were written by someone else, for someone else's profit."
-tags: ["books", "media", "dungeon crawler carl"]
+tags:
+  - books
 ---
 
 > Anyone who has watched a friend fight cancer inside the American healthcare system knows what it is to play a game whose rules were written by someone else, for someone else's profit.

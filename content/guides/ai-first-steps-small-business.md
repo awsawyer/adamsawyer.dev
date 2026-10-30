@@ -8,9 +8,7 @@ showToc: true
 tags:
   - ai
   - small-business
-  - first-steps
 title: "AI First Steps for a Small Business"
-weight: 2
 ---
 
 The state of small-business AI in 2026, in four numbers:
